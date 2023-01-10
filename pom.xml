@@ -9,11 +9,11 @@
         <version>2.1.3.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.nf</groupId>
-    <artifactId>pro_emp</artifactId>
+    <groupId>com.ahzx</groupId>
+    <artifactId>springdruid</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>pro_emp</name>
+    <name>springdruid</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -23,10 +23,10 @@
     <dependencies>
 
         <!--监控容器-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.springframework.boot</groupId>-->
+<!--            <artifactId>spring-boot-starter-actuator</artifactId>-->
+<!--        </dependency>-->
 
         <!-- 开启配置文件属性值自动注入的功能 -->
         <dependency>
